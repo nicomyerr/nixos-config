@@ -8,10 +8,10 @@ to use this add the `configuration-proxy.nix` in the `/etc/nixos/configuration.n
 
 ```nix
 {
-    imports = [
-        ./hardware-configuration.nix
-        /home/nico/repos/projects/configuration-proxy.nix
-    ]
-    ...
+  imports = [
+    ./hardware-configuration.nix
+    /home/nico/repos/projects/configuration-proxy.nix
+  ]
+  ...
 }
 ```

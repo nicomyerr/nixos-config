@@ -1,6 +1,6 @@
 {
-    imports = [
-        ./modules/programs.nix
-        ./modules/user.nix
-    ]
+  imports = [
+    ./modules/programs.nix
+    ./modules/user.nix
+  ]
 }

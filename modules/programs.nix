@@ -1,12 +1,12 @@
 environment.systemPackages = with pkgs; [
-    neovim
-    git
+  neovim
+  git
 ];
 
 users.users.nico.packages = with pkgs; [
-    firefox
-    discord
-    spotify
-    libreoffice-still
-    vscode
+  firefox
+  discord
+  spotify
+  libreoffice-still
+  vscode
 ]
