@@ -1,7 +1,8 @@
 {
   users.users.nico = {
+    description = "nico";
     isNormalUser = true;
     useDefaultShell = true;
-    description = "nico";
+    extraGroups = ["networkmanager" "wheel"];
   }
 }
