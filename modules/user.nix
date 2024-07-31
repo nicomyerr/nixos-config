@@ -3,6 +3,9 @@
     description = "nico";
     isNormalUser = true;
     useDefaultShell = true;
-    extraGroups = ["networkmanager" "wheel"];
-  }
+    extraGroups = [
+      "networkmanager"
+      "wheel"
+    ];
+  };
 }

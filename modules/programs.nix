@@ -1,13 +1,17 @@
-environment.systemPackages = with pkgs; [
-  neovim
-  git
-  flameshot
-];
+{ pkgs, ... }:
 
-users.users.nico.packages = with pkgs; [
-  firefox
-  discord
-  spotify
-  libreoffice-still
-  vscode
-]
+{
+  environment.systemPackages = with pkgs; [
+    neovim
+    git
+    flameshot
+  ];
+
+  users.users.nico.packages = with pkgs; [
+    firefox
+    discord
+    spotify
+    libreoffice-still
+    vscode
+  ];
+}
