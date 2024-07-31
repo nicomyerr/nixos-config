@@ -1,6 +1,7 @@
 environment.systemPackages = with pkgs; [
   neovim
   git
+  flameshot
 ];
 
 users.users.nico.packages = with pkgs; [
