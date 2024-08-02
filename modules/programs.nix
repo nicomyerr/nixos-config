@@ -13,5 +13,6 @@
     spotify
     libreoffice-still
     vscode
+    steam
   ];
 }
