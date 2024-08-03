@@ -11,5 +11,6 @@
     spotify
     vscode
     git
+    steam
   ];
 }
