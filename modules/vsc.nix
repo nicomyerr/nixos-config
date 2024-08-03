@@ -1,3 +1,5 @@
+{ pkgs, ...}:
+
 {
   programs.vscode = {
     enable = true;
@@ -11,6 +13,6 @@
       davidanson.vscode-markdownlint
       bbenoist.nix
       gruntfuggly.todo-tree
-    ]
-  }
+    ];
+  };
 }
