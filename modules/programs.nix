@@ -10,6 +10,7 @@
     discord
     spotify
     vscode
+    zsh
     git
     steam
   ];
