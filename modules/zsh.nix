@@ -5,6 +5,7 @@
   # environment.shells = with pkgs; [ zsh ];
   users.defaultUserShell = pkgs.zsh;
   environment.shellAliases = {
+    ff = "fastfetch";
     nrs = "sudo nixos-rebuild switch";
     nrsu = "sudo nixos-rebuild switch --upgrade";
   };
