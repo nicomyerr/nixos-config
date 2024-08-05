@@ -4,6 +4,10 @@
   # maybe i need this but not sure yet
   # environment.shells = with pkgs; [ zsh ];
   users.defaultUserShell = pkgs.zsh;
+  environment.shellAliases = {
+    nrs = "sudo nixos-rebuild switch";
+    nrsu = "sudo nixos-rebuild switch --upgrade";
+  };
   programs.zsh = {
     enable = true;
     autosuggestions.enable = true;
