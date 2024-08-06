@@ -8,6 +8,9 @@
     ff = "fastfetch";
     nrs = "sudo nixos-rebuild switch";
     nrsu = "sudo nixos-rebuild switch --upgrade";
+    nelgp = "sudo nix-env --list-generations --profile /nix/var/nix/profiles/system";
+    ncgdo = "sudo nix-collect-garbage --delete-old";
+    ncgdot = "sudo nix-collect-garbage --delete-older-than";
   };
   programs.zsh = {
     enable = true;
