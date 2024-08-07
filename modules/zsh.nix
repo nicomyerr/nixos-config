@@ -8,6 +8,7 @@
     ff = "fastfetch";
     nrs = "sudo nixos-rebuild switch";
     nrsu = "sudo nixos-rebuild switch --upgrade";
+    nrdb = "sudo nixos-rebuild dry-build";
     nelgp = "sudo nix-env --list-generations --profile /nix/var/nix/profiles/system";
     ncgdo = "sudo nix-collect-garbage --delete-old";
     ncgdot = "sudo nix-collect-garbage --delete-older-than";
