@@ -13,5 +13,6 @@
     zsh
     git
     steam
+    linuxKernel.packages.linux_zen.xone
   ];
 }
