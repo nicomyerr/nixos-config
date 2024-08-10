@@ -16,6 +16,7 @@
   ] ++ [
     # browser stuff
     firefox
+    chromium
   ] ++ [
     # media stuff
     discord
