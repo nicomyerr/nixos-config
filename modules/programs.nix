@@ -9,7 +9,6 @@
   ] ++ [
     # tools
     flameshot
-    neovim
   ] ++ [
     # office stuff
     libreoffice-still
