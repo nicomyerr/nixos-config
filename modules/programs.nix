@@ -3,7 +3,6 @@
 {
   users.users.nico.packages = with pkgs; ([
     # shell stuff
-    zsh
     git
     fastfetch
   ] ++ [
