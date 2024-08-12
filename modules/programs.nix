@@ -17,7 +17,7 @@
     chromium
   ] ++ [
     # media stuff
-    discord
+    webcord
     spotify
   ] ++ [
     # coding stuff
